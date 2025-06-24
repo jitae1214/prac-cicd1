@@ -1,8 +1,9 @@
 package com.example.prac_cicd1;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class helloContoroller {
     public String hello() {
         return "hello";
